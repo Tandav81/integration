@@ -1,0 +1,172 @@
+body {
+	background-color: black;
+	background-image: url('image/bg.jpg');
+	background-position: center;
+	background-repeat: repeat-y;
+}
+.container {
+	width: 760px;
+	background-image: url("image/full.jpg");
+	background-position: center;
+	background-repeat: repeat-y;
+}
+#right{
+	height: 1976px;
+	background-repeat: no-repeat;
+}
+#left{
+	height: 1976px;
+	padding-left: 40px;
+}
+#left h3{
+	border-top: 2px solid yellow;
+	color: white;
+	font-weight: bolder;
+}
+.etoile ul {
+	margin-top: 260px;
+}
+.etoile ul li{
+	list-style-image: url('image/star1.jpg');
+	font-size: 22px;
+	font-weight: bolder;
+	color: white;
+}
+#middle{
+	padding-left: 40px;
+}
+.peinture{
+	position: absolute;
+	top: 0;
+	left: 6px;
+}
+.titredroite{
+	font-family: 'Arial black';
+	position: relative;
+	padding-top: 40px;
+	line-height: 37px;
+	font-weight: bolder;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.recent{
+	width: 80%;
+	color: white;
+	font-weight: bold;
+}
+.updates{
+	border-top: 3px solid yellow;
+}
+a:link, a:visited, a:hover, a:active{
+	color: white;
+	text-decoration: none;
+}
+.recent li{
+	margin-left: -20px;
+	list-style-type: none;
+}
+.last{
+	background-color: yellow;
+	font-weight: 900;
+	color: #ec155b;
+}
+.recent ul{
+	margin-top: -10px;
+	padding-bottom: 150px;
+	border:2px solid yellow;
+}
+.recent .item{
+	margin-top: -10px;
+	border:2px solid yellow;
+}
+h4{
+	background-color: yellow;
+	font-weight: bold;
+}
+.article{
+
+	color:white;
+	font-family: 'arial black';
+
+}
+.article a{
+	color:#ffe406
+}
+
+.comment{
+	font-size: 12px;
+	padding-left: 3px;
+	border-left: 2px solid yellow;
+}
+.permalink a{
+	color: yellow;
+}
+.permalink{
+	margin-top: -10px;
+}
+.comment a{
+	color:#ffe406;
+}
+.comment p{
+	color: white;
+}
+.mini{
+	margin:6px;
+	border:1px solid yellow;
+	float: left;
+}
+.mini2{
+	margin:6px;
+	border:1px solid yellow;
+	float: right;
+}
+.quoted{
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color: gray;
+	border-top:1px solid yellow;
+	border-bottom:1px solid yellow;
+	margin-bottom: 15px;
+}
+.side p{
+	background-color: yellow;
+	font-weight: 900;
+	color: #ec155b;
+}
+.item{
+	padding:3px;
+	font-size: 10px;
+	color: white;
+}
+.listex ul{
+	list-style-image: url('image/bullet.gif');
+}
+.listex{
+	color: white;
+}
+.finish{
+	border-top: 1px solid black;
+	border-bottom:1px solid black;
+	width:80%;
+	background-color: grey;
+	color: white;
+	margin-left:40px;
+	padding-right: 30px;
+
+}
+.finish li{
+	text-align: center;
+	list-style-type: none;
+}
+.splash{
+	position:absolute;
+	bottom:0;
+	margin-left: -70px;
+}
+footer{
+	position: absolute;
+	width:400px;
+	margin-left: 600px;
+	margin-top: -20px;
+}
